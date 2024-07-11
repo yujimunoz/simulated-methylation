@@ -6,3 +6,4 @@ do
 	~/Software/sratoolkit.3.1.1-ubuntu64/bin/fasterq-dump --split-files "$sra"
  #This is for extracting the reads for each line in the .txt file.
 done < $1
+#This passes the first command line argument into the while loop
